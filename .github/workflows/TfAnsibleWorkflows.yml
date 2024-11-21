@@ -55,7 +55,7 @@ jobs:
           aws-region: eu-central-1
 
       - name: Terraform Init
-        working-directory: ./Terraform
+        #working-directory: ./Terraform
         run: terraform init
 
       - name: Terraform Destroy
