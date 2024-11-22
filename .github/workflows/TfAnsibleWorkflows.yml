@@ -16,7 +16,7 @@ jobs:
          webhook: ${{secrets.SLACK_WEBHOOK_URL}}
          webhook-type: webhook-trigger
          payload: |
-          text: "Github Actions mit Terraform und Ansible"
+          text: "Funktioniert!"
 
 
       - name: Checkout repo
